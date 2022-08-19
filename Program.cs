@@ -42,4 +42,20 @@ current++;
 
 }
 */
+// Задача 4. Напишите программу , которая прринимает на вход трехзначное число и на выходе показывает последнюю  цифру этого  числа.
 
+
+Console.Write("Input three-digit integer number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int rezult= num % 10;
+
+Console.WriteLine($"Last digit of {num} is  {rezult}");
+
+/*
+264 / 100 -> 2 
+
+264 % 100 -> 64
+
+264 % 10 -> 4
+*/
